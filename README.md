@@ -2,4 +2,4 @@ My website is for African-American women who is thinking about embracing their n
 
 Directions:
 Run index.html.
-click on navagation links to navigate through each page.
+Click on navigation links to navigate through each page.
