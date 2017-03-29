@@ -1,0 +1,135 @@
+/*Base element styles*/
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to right, #E24E42, #FA7C92 );
+    font-family: 'Open Sans Condensed', sans-serif; 
+    padding: 1em;
+}
+
+header {
+  background: black;
+  margin: 0 0 30px;
+  width: auto;
+  padding: 15px;
+  padding-top: 1px;
+}
+
+.title {
+    color:white;
+}
+
+/*Sumbit buttom*/
+
+button {
+    padding: 5px;
+    background-color: dimgray;
+    color: black;
+    width:inherit;
+    font-style: normal;
+    border-radius: 10px;
+     border: 1px solid;
+}
+
+/*Email input*/
+
+input[type="email"], 
+textarea,
+select {
+    font-size: 15px;
+    width:auto;
+    height: auto;
+    border-radius: 5px;
+    
+    
+}
+
+
+/*Navigation*/
+
+nav {
+    text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  color: white;
+}
+
+a:hover {
+    background-color: gray;
+}
+ 
+/*Pictures*/
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 25%;
+    /*height: auto;*/
+}
+
+img slider {
+    display: none;
+}
+
+/*Media Queries*/
+
+/*Smart Phones*/
+
+@media only screen and (min-width: 120px) and (max-width: 767px ) {
+    
+    body {
+        background: linear-gradient(to right, #0375B4, #4ABDAC);
+    }
+    
+    nav a {
+        display: block;
+        width: 100%;
+    }
+    
+}
+
+/*Tablets*/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    
+    body {
+        background: linear-gradient(to right, #E9B000, #F19F4D );
+    }
+    
+    .primary,
+	.secondary {
+		width: 50%;
+	}
+    
+    .name,
+	.col {
+		float: left;
+	}
+   
+}
+
+/*Desktops*/
+
+@media (min-width: 1025px) {
+    
+
+.primary {
+		width: 40%;
+	}
+
+	.secondary,
+	.tertiary {
+		width: 30%;
+	}
+    
+    .name,
+	.col {
+		float: left;
+	}
+}
